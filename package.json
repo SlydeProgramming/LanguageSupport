@@ -21,6 +21,13 @@
       "extensions": [".sly"],
       "configuration": "./language-configuration.json"
     }],
+    "iconThemes": [
+      {
+        "id": "slyde-icon-theme",
+        "label": "Slyde Icon Theme",
+        "path": "./icon-theme.json"
+      }
+    ],
     "grammars": [{
       "language": "slyde",
       "scopeName": "source.slyde",
