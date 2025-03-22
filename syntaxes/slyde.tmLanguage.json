@@ -19,8 +19,17 @@
 		"keywords": {
 			"patterns": [{
 				"name": "entity.name.tag.slyde",
-				"match": "\\b(if|while|for|return|class)\\b"
-			},{
+				"match": "\\b(class|null)\\b"
+			},
+			{
+				"name":"keyword.control.slyde",
+				"match": "\\b(if|while|for|return|new)\\b"
+			},
+			{
+				"name":"entity.name.function",
+				"match": "\\b([a-zA-Z_][a-zA-Z0-9_]*)\\b\\("
+			},
+			{
 				"name": "keyword.operator.slyde",
 				"match": "\\b(=|==|!=|<|>|<=|>=)\\b"
 			},
@@ -33,9 +42,14 @@
 				"match": "\\b(true|false|on|off|yes|no)\\b"
 			},
 			{
-				"name": "variable.other.local.slyde",
+				"name":"entity.name.type.slyde",
+				"match": "(?<=\\bclass\\s+)[a-zA-Z_][a-zA-Z0-9_]*"
+			},
+			{
+				"name": "variable.name.slyde",
 				"match": "\\b([a-zA-Z_][a-zA-Z0-9_]*)\\b"
 			}
+			
 		]
 		},
 		"strings": {
@@ -53,7 +67,7 @@
 			"patterns": [
 				{
 				"name": "entity.name.type.slyde",
-				"match": "\\b(int|float|void|boolean|String)\\b"
+				"match": "\\b([a-zA-Z_][a-zA-Z0-9_]*)\\b(?=\\s+[a-zA-Z_][a-zA-Z0-9_]*\\s*(=|\\)|\\,))"
 				}
 			]
 		},
