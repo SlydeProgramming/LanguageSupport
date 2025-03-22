@@ -2,7 +2,7 @@
   "name": "sly",
   "displayName": "slyde-language",
   "description": "Language support for Slyde",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "publisher": "SlydeProgramming",
   "icon": "icons/icon.png",
   "engines": {

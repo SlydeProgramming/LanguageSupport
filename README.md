@@ -9,7 +9,7 @@ This is a VERY basic language
 
 ## Release Notes
 
-added icon for slyde files
+added better coloring
 
 ## Patch notes
 
