@@ -1,0 +1,30 @@
+{
+  "name": "sly",
+  "displayName": "slyde-language",
+  "description": "Language support for Slyde",
+  "version": "0.0.1",
+  "publisher": "SlydeProgramming",
+  "engines": {
+    "vscode": "^1.98.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SlydeProgramming/Slyde"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "slyde",
+      "aliases": ["Slyde", "slyde"],
+      "extensions": [".sly"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "slyde",
+      "scopeName": "source.slyde",
+      "path": "./syntaxes/slyde.tmLanguage.json"
+    }]
+  }
+}
