@@ -6,6 +6,9 @@
 			"include": "#strings"
 		},
 		{
+			"include": "#comments"
+		},
+		{
 			"include": "#data-types"
 		}, 
 		{
@@ -51,6 +54,25 @@
 				{
 				"name": "entity.name.type.slyde",
 				"match": "\\b(int|float|void|boolean|String)\\b"
+				}
+			]
+		},
+		"comments": {
+			"patterns": [
+				{
+					"name": "comment.line.double-slash.slyde",
+					"match": "//.*"
+				},
+				{
+					"name": "comment.block",
+					"begin": "/\\*",
+					"end": "\\*/",
+					"patterns": [
+						{
+							"name": "comment.block.documentation.slyde",
+							"match": "\\*\\*.*"
+						}
+					]
 				}
 			]
 		}
