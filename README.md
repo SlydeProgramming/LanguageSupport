@@ -3,20 +3,17 @@
 Slyde programming language installed
 Java 21
 
-## Extension Settings
-
-
 ## Known Issues
 
 This is a VERY basic language
 
 ## Release Notes
 
-added coloring
+added icon for slyde files
 
-### 1.0.0
+## Patch notes
 
-Initial release of language support
+fixed overriding of other files
 
 
 **Enjoy!**

@@ -2,7 +2,7 @@
   "name": "sly",
   "displayName": "slyde-language",
   "description": "Language support for Slyde",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "publisher": "SlydeProgramming",
   "engines": {
     "vscode": "^1.98.0"
@@ -19,15 +19,12 @@
       "id": "slyde",
       "aliases": ["Slyde", "slyde"],
       "extensions": [".sly"],
-      "configuration": "./language-configuration.json"
-    }],
-    "iconThemes": [
-      {
-        "id": "slyde-icon-theme",
-        "label": "Slyde Icon Theme",
-        "path": "./icon-theme.json"
+      "configuration": "./language-configuration.json",
+      "icon": {
+        "light": "./icons/icon.png",
+        "dark": "./icons/icon.png"
       }
-    ],
+    }],
     "grammars": [{
       "language": "slyde",
       "scopeName": "source.slyde",
