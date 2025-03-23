@@ -9,7 +9,7 @@ This is a VERY basic language
 
 ## Release Notes
 
-added better coloring
+fixed
 
 ## Patch notes
 
