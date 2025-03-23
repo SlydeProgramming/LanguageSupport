@@ -66,8 +66,8 @@
 		"data-types": {
 			"patterns": [
 				{
-				"name": "entity.name.type.slyde",
-				"match": "\\b([a-zA-Z_][a-zA-Z0-9_]*)\\b(?=\\s+[a-zA-Z_][a-zA-Z0-9_]*\\s*(=|\\)|\\,))"
+					"name": "entity.name.type.slyde",
+					"match": "\\b([a-zA-Z_][a-zA-Z0-9_]*)\\b(?=\\s+[a-zA-Z_][a-zA-Z0-9_]*\\s*(=|\\)|\\,|\\())"
 				}
 			]
 		},
